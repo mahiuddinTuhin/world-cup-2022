@@ -1,0 +1,54 @@
+@media screen and (max-width: 769px) and (min-width: 577px) {
+  main {
+    flex-direction: column;
+  }
+  main aside {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  main aside p {
+    width: 20vw;
+    padding: 2vh 0;
+    font-size: 5vh;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+      rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  }
+
+  #hightlights-aside-btn {
+    background-color: white;
+    color: black;
+  }
+  article.transfer-blog-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    column-gap: 2vw;
+    row-gap: 5vh;
+  }
+ 
+
+  .transfer-information {
+    margin: 2vh 2vw 5vh 2vw;
+  }
+
+  article .transfer-blog .transfer-btn {
+    margin-right: 25vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+
+  header artcle{
+      width: 100%;
+  }
+  main{
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
